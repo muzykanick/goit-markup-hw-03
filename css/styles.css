@@ -52,7 +52,7 @@ line-height: 1.5;
 
 
 .container {
-    display: flex;
+  
     max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
@@ -94,6 +94,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 margin-right: 76px
+
 
 
 
@@ -145,6 +146,7 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
+padding-left: 156px;
 
 
 
@@ -320,14 +322,34 @@ letter-spacing: 0.02em;
 
 .footer {
 background: #2E2F42;
+padding: 100px 0;
+margin-bottom: 16px;
+}
+
+.logo-footer {
+    color: #4D5AE5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-right: 76px
+        display: inline-block;
+        margin-bottom: 16px;
+
 }
 
 .accent-footer {
 color: #F4F4FD;
 }
 
+
+
 .footer-paragraph {
 color: #F4F4FD;
 line-height: 1.5;
 letter-spacing: 0.02em;
+
 }

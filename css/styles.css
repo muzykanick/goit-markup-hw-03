@@ -6,8 +6,8 @@ img {
 
 .container {
 max-width: 1158px;
-padding-left: 15;
-padding-right: 15;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: auto;
 margin-right:auto;
 
@@ -49,15 +49,16 @@ line-height: 1.5;
 
 /* header */
 
-.container-header {
 
-    display: flex;
-    align-items: center;
 
-}
+   
+
+
 
 .header {
 border-bottom: 1px solid #e7e9fc;
+
+
 
 }
 
@@ -70,8 +71,7 @@ border-bottom: 1px solid #e7e9fc;
    
 
 
-
-
+display: flex;
 
 
 }

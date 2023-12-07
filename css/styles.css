@@ -1,0 +1,217 @@
+body {
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFF;
+font-style: normal;
+font-weight: 400;
+}
+
+h2 {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+h3 {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+
+p {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.logo {
+color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.accent {
+color: #2E2F42;
+}
+
+.site-nav {
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.site-nav {
+list-style: none;
+}
+
+.site-contacts {
+list-style: none;
+}
+
+.address {
+font-size: 16px;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.link {
+color: #2E2F42;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.link-contacts {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.link:hover {
+color: #404BBF;
+}
+
+.link:focus {
+color: #404BBF;
+}
+
+.link-contacts:hover {
+color: #404BBF;
+}
+
+.link-contacts:focus {
+color: #404BBF;
+}
+
+.hero-section {
+background: #2E2F42;
+}
+
+.hero-title {
+color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;   
+}
+
+.button {
+cursor: pointer;
+background: #4D5AE5;
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.button:hover {
+background: #404BBF;
+}
+
+.button:focus {
+background: #404BBF;
+}
+
+.features-title{
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.features-list {
+list-style: none;
+}
+
+.features-paragraph {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.section-three{
+background: #F4F4FD;
+}
+
+.our-team-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.our-team-list{
+list-style: none;
+background-color: #F4F4FD;
+}
+
+.our-team-list-item {
+    background-color: #FFF;
+}
+
+.our-team-list-title {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.our-team-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.our-portfolio-title {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.our-portfolio-list{
+list-style: none;
+}
+
+.our-portfolio-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer {
+background: #2E2F42;
+}
+
+.accent-footer {
+color: #F4F4FD;
+}
+
+.footer-paragraph {
+color: #F4F4FD;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}

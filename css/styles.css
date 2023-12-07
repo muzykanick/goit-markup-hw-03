@@ -51,7 +51,7 @@ line-height: 1.5;
 /* header */
 
 
-.container-header {
+.container {
     display: flex;
     max-width: 1158px;
         padding-left: 15px;

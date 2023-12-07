@@ -1,5 +1,9 @@
 /* common styles */
 
+img {
+    display: block;
+}
+
 .container {
 max-width: 1158px;
 padding-left: 15;
@@ -9,6 +13,8 @@ margin-right:auto;
 
 outline: 2px solid red;
 outline-offset: -2px;
+
+
 }
 
 body {
@@ -43,6 +49,33 @@ line-height: 1.5;
 
 /* header */
 
+.container-header {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.header {
+border-bottom: 1px solid #e7e9fc;
+
+}
+
+
+
+
+
+
+.navigation{
+   
+
+
+
+
+
+
+}
+
 .logo {
 color: #4D5AE5;
 font-family: Raleway, sans-serif;
@@ -52,6 +85,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
+
+
+
 }
 
 .accent {
@@ -63,14 +99,32 @@ color: #2E2F42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
+text-decoration: none;
+list-style: none;
+display: flex;
+    align-items: center;
+
+
+
+
+
+
+
+
+
+
 }
 
-.site-nav {
-list-style: none;
-}
+
 
 .site-contacts {
+
 list-style: none;
+    
+  
+
+
+
 }
 
 .address {
@@ -78,6 +132,12 @@ font-size: 16px;
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-decoration: none;
+
+
+
+
+   
 }
 
 .link {
@@ -86,7 +146,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
+
 }
+
 
 .link-contacts {
 color: #434455;
@@ -94,6 +156,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
+list-style: none;
+
+
+
 }
 
 .link:hover {

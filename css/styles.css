@@ -320,6 +320,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .our-portfolio-list{
@@ -330,15 +331,10 @@ column-gap: 24px;
 row-gap: 48px;
 }
 
-.app-name-category {
-
-}
-
 .app-name{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-margin-bottom: 8px
 }
 
 .our-portfolio-paragraph {

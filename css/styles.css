@@ -11,13 +11,13 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+margin: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+margin: 0;
+padding: 0;
+list-style-type: none;
 }
 
 .container {
@@ -27,12 +27,8 @@ padding-right: 15px;
 margin-left: auto;
 margin-right:auto;
 
-
-
 outline: 2px solid red;
 outline-offset: -2px;
-
-
 }
 
 body {
@@ -69,36 +65,20 @@ line-height: 1.5;
 
 
 .container {
-  
-    max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 }
-   
-
-
 
 .header {
 border-bottom: 1px solid #e7e9fc;
-
-
-
 }
 
-
-
-
-
-
-.navigation{
-   
-
-
+.navigation {
 display: flex;
 align-items: center;
-
 }
 
 .logo {
@@ -111,10 +91,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 margin-right: 76px
-
-
-
-
 }
 
 .accent {
@@ -129,32 +105,14 @@ line-height: 1.5;
 text-decoration: none;
 list-style: none;
 display: flex;
-    align-items: center;
-    gap: 40px;
-
-
-
-
-
-
-
-
-
-
+align-items: center;
+gap: 40px;
 }
 
-
-
 .site-contacts {
-
 list-style: none;
 display: flex;
 gap: 40px;
-    
-  
-
-
-
 }
 
 .address {
@@ -163,12 +121,7 @@ font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
-padding-left: 156px;
-
-
-
-
-   
+padding-left: 156px;  
 }
 
 .link {
@@ -178,7 +131,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 padding: 24px 0;
-
 }
 
 
@@ -189,9 +141,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 list-style: none;
-
-
-
 }
 
 .link:hover {
@@ -258,23 +207,20 @@ background: #404BBF;
 /* section 2 */
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
-
-
 .section-two {
-    padding: 120px 0;
+padding: 120px 0;
 }
 
 .features-title{
@@ -290,11 +236,9 @@ margin-bottom: 8px
 list-style: none;
 display: flex;
 gap: 24px;
-
 }
 
 .features-list-item {
-
 width: calc((100% - 72px) / 4);
 }
 
@@ -313,7 +257,6 @@ letter-spacing: 0.02em;
 .section-three{
 background: #F4F4FD;
 padding: 120px 0;
-
 }
 
 .our-team-title {
@@ -325,26 +268,19 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-
 }
 
 .our-team-list{
 list-style: none;
 background-color: #F4F4FD;
 display: flex;
-
-
-
-
 }
 
 .our-team-list-item {
-    background-color: #FFF;
-    margin-right: 24px;
-    
-    border-radius: 0px 0px 4px 4px;
-    gap: 24px;
-    
+background-color: #FFF;
+margin-right: 24px;
+border-radius: 0px 0px 4px 4px;
+gap: 24px;
 }
 
 .our-team-list-title {
@@ -355,8 +291,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 8px;
-
-
 }
 
 .name-position{
@@ -368,17 +302,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center; 
-
 }
 
 /* section 4 */
 
 .section-four {
-    padding-top: 120px;
+padding-top: 120px;
 }
 
 .our-portfolio {
-    margin-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .our-portfolio-title {

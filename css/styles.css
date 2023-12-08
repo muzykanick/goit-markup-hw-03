@@ -266,25 +266,24 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px
 }
 
 .features-list {
 list-style: none;
 display: flex;
 gap: 24px;
+width calc((100% - 3 * 24px) / 4);
 }
 
-.features-list-first {
-    
-    width calc((100% - 3 * 24px) / 4);
-}
+
 
 .features-paragraph {
 color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 8px
+
 }
 
 /* section 3 */

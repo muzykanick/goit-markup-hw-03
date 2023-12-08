@@ -4,6 +4,22 @@ img {
     display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .container {
 max-width: 1158px;
 padding-left: 15px;
@@ -357,6 +373,14 @@ text-align: center;
 
 /* section 4 */
 
+.section-four {
+    padding-top: 120px;
+}
+
+.our-portfolio {
+    margin-bottom: 72px;
+}
+
 .our-portfolio-title {
 color: #2E2F42;
 font-size: 20px;
@@ -367,6 +391,9 @@ letter-spacing: 0.02em;
 
 .our-portfolio-list{
 list-style: none;
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
 }
 
 .our-portfolio-paragraph {

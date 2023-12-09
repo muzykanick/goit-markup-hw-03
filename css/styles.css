@@ -31,6 +31,12 @@ outline: 2px solid red;
 outline-offset: -2px;
 }
 
+.header-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 body {
 font-family: Roboto, sans-serif;
 color: #434455;
@@ -39,15 +45,7 @@ font-style: normal;
 font-weight: 400;
 }
 
-h2 {
-color: #2E2F42;
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-}
+
 
 h3 {
 color: #2E2F42;
@@ -64,13 +62,7 @@ line-height: 1.5;
 /* header */
 
 
-.container {
-max-width: 1158px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
-}
+
 
 .header {
 border-bottom: 1px solid #e7e9fc;
@@ -105,8 +97,9 @@ line-height: 1.5;
 text-decoration: none;
 list-style: none;
 display: flex;
-align-items: center;
+
 gap: 40px;
+
 }
 
 .site-contacts {
@@ -131,6 +124,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 padding: 24px 0;
+display: block;
 }
 
 
@@ -176,7 +170,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;  
-margin: 0 auto;
+margin: 0 auto 48px;
 }
 
 .button {
@@ -188,7 +182,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-margin: 48px auto;
+margin: 0 auto;
 height: 56px;
 min-width: 169px;
 border-radius: 4px;
@@ -256,10 +250,10 @@ letter-spacing: 0.02em;
 
 .section-three{
 background: #F4F4FD;
-padding: 120px 0;
+
 }
 
-.our-team-title {
+.title {
 color: #2E2F42;
 text-align: center;
 font-size: 36px;
@@ -274,13 +268,16 @@ margin-bottom: 72px;
 list-style: none;
 background-color: #F4F4FD;
 display: flex;
+gap: 24px;
 }
 
 .our-team-list-item {
 background-color: #FFF;
-margin-right: 24px;
+
 border-radius: 0px 0px 4px 4px;
-gap: 24px;
+
+width: calc((100% - 72px) / 4);
+
 }
 
 .our-team-list-title {
@@ -306,8 +303,9 @@ text-align: center;
 
 /* section 4 */
 
-.section-four {
+.section{
 padding-top: 120px;
+padding-bottom: 120px;;
 }
 
 .our-portfolio {
@@ -329,6 +327,11 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+}
+
+.our-portfolio-item {
+    width: calc((100% - 48px) / 3);
+   
 }
 
 .app-name{
@@ -362,7 +365,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
-margin-right: 76px
+
 }
 
 .accent-footer {
